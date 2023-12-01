@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Barlow:wght@200&family=Dancing+Script:wght@700&family=Fraunces:ital,opsz@1,9..144&family=Heebo&family=Righteous&family=Rubik&family=Sarala&family=Secular+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-image: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.link{
+    font-family: sarala,sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+
+}
