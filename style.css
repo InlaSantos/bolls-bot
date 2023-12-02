@@ -17,7 +17,6 @@ body{
 }
 
 .cabecalho{
-    min-width: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -42,7 +41,6 @@ nav{
 }
 
 .conteudo{
-    min-width: 100vh;
     margin-bottom: 48px;
     border-top: 0.4px solid #FFF2E7;    
 }
@@ -75,7 +73,6 @@ h2.titulo2{
     font-size: 24px;
     line-height: 39.13px;
     color: #ECD6C4;
-    ;
 }
 button{
     background-color: #ECD6C4;
