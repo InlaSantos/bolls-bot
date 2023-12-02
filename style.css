@@ -20,11 +20,120 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    padding: 24px;
+    
 }
 
+.logo{
+    height: 72px;
+}
+
+nav{
+    display: flex;
+    gap: 32px;
+}
 .link{
     font-family: sarala,sans-serif;
     font-weight: 400;
     font-size: 18px;
+    color: #FFF2E7;
+}
 
+.conteudo{
+
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;    
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+   display: flex;
+   flex-direction: column;
+   gap: 32px;
+}
+h1.tituloone{
+    font-family: Righteous,sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 79.47px;
+    color: #FFF2E7;
+}
+
+h2.titulo2{
+    font-family: sarala,sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39.13px;
+    color: #ECD6C4;
+    ;
+}
+button{
+    background-color: #ECD6C4;
+    width: 185px;
+    height: 67px;
+    border-radius: 20px;
+    border: none;
+    font-family: sarala,sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    line-height: 39.13px;
+    color: #2F2325;
+    box-shadow: 4px 5px 4px 0px rgba(0,0,0,0.25);
+    ;
+}
+
+button:hover{
+    background-color: rgba(236,214,196,0.53);
+    transition-duration: 1s;
+}
+
+.conteudo-principal-imagem{
+    height: 430px;  
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.titulo3{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: Righteous,sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.8px;
+    color: #FFF2EF;
+    margin-bottom: 16px;
+
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: sarala,sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+    
+}
+
+.rodape{
+    border-top: 0.4px solid #FFF2E7;
+    padding: 32px;
+    
+}
+
+.imagem-rodape{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
 }
