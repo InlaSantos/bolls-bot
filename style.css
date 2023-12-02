@@ -42,7 +42,7 @@ nav{
 }
 
 .conteudo{
-    
+    min-width: 100vh;
     margin-bottom: 48px;
     border-top: 0.4px solid #FFF2E7;    
 }
